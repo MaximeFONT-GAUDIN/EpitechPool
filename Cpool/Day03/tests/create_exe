@@ -1,0 +1,4 @@
+gcc -c tests_my_put_nbr.c ../task07/my_put_nbr.c
+gcc -o my_put_nbr.o tests_my_put_nbr.c
+gcc -o result_tests my_put_nbr.o tests_my_put_nbr.c
+rm *.o
